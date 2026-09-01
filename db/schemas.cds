@@ -1,7 +1,3 @@
-using {managed} from '@sap/cds/common';
-
-namespace notifications;
-
-entity Notifications : managed {
+entity Notifications {
     key id : UUID;
 }
