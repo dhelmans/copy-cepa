@@ -1,0 +1,19 @@
+@localhost=http://localhost:4004/odata/v4/cepa/
+
+GET {{localhost}}Notifications
+Content-Type: application/json
+
+###
+
+POST {{localhost}}Notifications
+Content-Type: application/json
+{}
+
+###
+DELETE {{localhost}}Notifications(id=1234)
+Content-Type: application/json
+###
+PUT {{localhost}}Notifications(id=1234)
+Content-Type: application/json
+
+{}

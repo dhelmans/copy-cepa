@@ -1,5 +1,7 @@
-using {notifications} from '../db/schemas';
+using {print} from '../db/schemas';
 
-service Cepa {
-    entity Notifications as projection on notifications.Notifications;
+service MainService {
+    entity Printer   as projection on print.Printers;
+    entity Filaments as projection on print.Filaments;
+    entity Pieces    as projection on print.Pieces;
 }
